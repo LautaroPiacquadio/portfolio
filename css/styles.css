@@ -141,3 +141,28 @@ body {
 .skills-list li::before {
     section: "✔";
 }
+
+.project {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.river {
+    background-image: url('../images/river.jpg');
+}
+
+.webchattonic {
+    background-image: url('../images/webchattonic.png');
+}
+
+.gyde {
+    background-image: url('../images/gyde.png');
+}
+
+.project-title {
+    text-align: center;
+}
