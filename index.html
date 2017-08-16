@@ -11,68 +11,101 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="navigator">
-            <div class="picture">
-
-            </div>
+        <nav class="navigator">
             <ul class="menu">
-                <li><a href="#presentation"><i class="material-icons">home</i></a></li>
-                <li><a href="#habilities"><i class="material-icons">playlist_add_check</i></a></li>
+                <li><a href="#main"><i class="material-icons">home</i></a></li>
+                <li><a href="#presentation"><i class="material-icons">account_circle</i></a></li>
+                <li><a href="#skills"><i class="material-icons">playlist_add_check</i></a></li>
                 <li><a href="#studies"><i class="material-icons">school</i></a></li>
                 <li><a href="#experience"><i class="material-icons">build</i></a></li>
                 <li><a href="#projects"><i class="material-icons">photo</i></a></li>
             </ul>
-        </div>
+        </nav>
+        <main id="main" class="main">
+            <div class="image"></div>
+            <h1>Lautaro Piacquadio</h1>
+            <h2>Full Stack Web Developer</h2>
+        </main>
         <div class="container">
-            <div id="presentation" class="content">
+            <div id="presentation" class="section">
                 <h3>Quien soy</h3>
-                <h1>Lautaro Piacquadio</h1>
-                <h2>Desarrollador Web Full-Stack</h2>
-                <ul>
-                    <li>Nombre: Lautaro Piacquadio</li>
-                    <li>Edad: 22</li>
-                    <li>Dirección: Corrales 2462, CABA</li>
-                    <li>Email: lautaropiacquadio.lp@gmail.com</li>
-                    <li>Telefono: 1123875083</li>
-                </ul>
+                <div class="content">
+                    <ul class="list">
+                        <li>Nombre: Lautaro Piacquadio</li>
+                        <li>Edad: 22</li>
+                        <li>Dirección: Corrales 2462, CABA</li>
+                        <li>Email: lautaropiacquadio.lp@gmail.com</li>
+                        <li>Telefono: 1123875083</li>
+                    </ul>
 
-                <p>Soy un apasionado por la tecnología, me encanta investigar y aprender nuevas tecnologías que van surgiendo y poder aplicarlas a los proyectos en los que en los que estoy trabajando.</p>
-                <p>Me gusta aprender de forma autodidacta y nunca paro de hacerlo, soy adicto a los cursos y blogs sobre desarrollo web.</p>
-            </div>
-
-            <div id="studies" class="content">
-                <h3>Formación</h3>
-                <div class="education">
-                    <h2>Acamica</h2>
-                    <p>Desarrollador Web y Diseñador Web. Perfil: https://www.acamica.com/@lautaropiacquadio</p>
-                </div>
-                <div class="education">
-                    <h2>Comunidad IT</h2>
-                    <p>Desarrollador de Aplicaciones Web en .NET</p>
-                </div>
-                <div class="education">
-                    <h2>Free Code Camp</h2>
-                    <p>Desarrollador Web Full Stack</p>
-                </div>
-                <div class="education">
-                    <h2>Universidad Nacional de Quilmes</h2>
-                    <p>Licenciatura en Composición con Medios Electroacústicos, Música y Tecnología</p>
+                    <p>Soy un apasionado por la tecnología, me encanta investigar y aprender nuevas tecnologías que van surgiendo y poder aplicarlas a los proyectos en los que en los que estoy trabajando.</p>
+                    <p>Me gusta aprender de forma autodidacta y nunca paro de hacerlo, soy adicto a los cursos y blogs sobre desarrollo web.</p>
                 </div>
             </div>
 
-            <div id="experience" class="content">
+            <div id="skills" class="section">
+                <h3>Aptitudes</h3>
+                <div class="content">
+                    <ul class="list skills-list">
+                        <li>Javascript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>ReactJS</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                        <li>Socket.io</li>
+                        <li>Webpack</li>
+                        <li>Redux</li>
+                        <li>Mobx</li>
+                        <li>Mongoose</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="studies" class="section">
+                <h3>Educación</h3>
+                <div class="content">
+                    <div class="education">
+                        <h2>Acamica</h2>
+                        <p>Desarrollador Web y Diseñador Web. Perfil: https://www.acamica.com/@lautaropiacquadio</p>
+                    </div>
+                    <div class="education">
+                        <h2>Comunidad IT</h2>
+                        <p>Desarrollador de Aplicaciones Web en .NET</p>
+                    </div>
+                    <div class="education">
+                        <h2>Free Code Camp</h2>
+                        <p>Desarrollador Web Full Stack</p>
+                    </div>
+                    <div class="education">
+                        <h2>Universidad Nacional de Quilmes</h2>
+                        <p>Licenciatura en Composición con Medios Electroacústicos, Música y Tecnología</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="experience" class="section">
                 <h3>Experiencia</h3>
-                <div class="job">
-                    <h2>Mobile-Tonic (Feb. 2016 - Actualidad)</h2>
-                    <p>Desarrollador Web Full Stack</p>
-                    <p>En Mobile-Tonic me desempeño como desarrollador web, tanto front-end como back-end utilizando tecnologías como NodeJS, MongoDB, React, Redux, Mobx, Mongoose, entre otras, además del desarrollo de chatbots con las APIs de Facebook Messenger y Telegram.</p>
+                <div class="content">
+                    <div class="job">
+                        <h2>Mobile-Tonic (Feb. 2016 - Actualidad)</h2>
+                        <p>Desarrollador Web Full Stack</p>
+                        <p>En Mobile-Tonic me desempeño como desarrollador web, tanto front-end como back-end utilizando tecnologías como NodeJS, MongoDB, React, Redux, Mobx, Mongoose, entre otras, además del desarrollo de chatbots con las APIs de Facebook Messenger y Telegram.</p>
+                    </div>
                 </div>
             </div>
 
-            <div id="projects" class="content">
-                <h3>Portfolio</h3>
-                <div class="project">
-                    <h2>Proximamente...</h2>
+            <div id="projects" class="section">
+                <h3>Proyectos</h3>
+                <div class="unslider">
+                    <div class="slider">
+                        <ul>
+                            <li><p>Coming soon</p></li>
+                            <li><p>Coming soon</p></li>
+                            <li><p>Coming soon</p></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -81,8 +114,24 @@
         <script type="text/javascript">
             jQuery(document).ready(function($) {
                 $('.slider').unslider({
-                    arrows: false,
+                    arrows: true,
                     autoplay: true
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('a[href^="#"]').on('click',function (e) {
+                    e.preventDefault();
+
+                    var target = this.hash;
+                    var $target = $(target);
+
+                    $('html, body').stop().animate({
+                        'scrollTop': $target.offset().top
+                    }, 600, 'swing', function () {
+                        window.location.hash = target;
+                    });
                 });
             });
         </script>
