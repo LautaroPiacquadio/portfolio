@@ -64,6 +64,7 @@ body {
     padding-top: 60px;
     text-align: center;
     color: var(--light-primary-color);
+    letter-spacing: 2px;
 }
 
 .image {
@@ -165,6 +166,14 @@ body {
 
 .project-title {
     text-align: center;
+}
+
+.education h2, .job h2, .project-title, .main h1, .section h3 {
+    font-family: 'Lato';
+}
+
+.education p, .job p, .main h2, .list li, .content p {
+    font-family: 'Open Sans';
 }
 
 @media only screen and (max-width: 320px) {
